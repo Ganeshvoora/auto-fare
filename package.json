@@ -1,5 +1,5 @@
 {
-  "name": "auto-fare-2",
+  "name": "auto-fare",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-node": "^1.7.4",
+    "@tensorflow/tfjs-node-gpu": "^4.22.0",
+    "canvas": "^3.1.1",
+    "daisyui": "^5.0.43",
+    "encoding": "^0.1.13",
+    "face-api.js": "^0.22.2",
+    "formik": "^2.4.6",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.0",
+    "next": "15.3.4",
+    "null-loader": "^4.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-webcam": "^7.2.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "ignore-loader": "^0.1.2",
     "tailwindcss": "^4"
   }
 }

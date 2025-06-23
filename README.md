@@ -34,6 +34,9 @@ This system helps reduce missed ticket checks, speeds up boarding, and prevents 
 
 - MONGODB_URI - your mongodb url
 
+### Note:
+-Add Mongodb url in cctv_symulation/main.py
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)

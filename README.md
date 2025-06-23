@@ -30,6 +30,10 @@ This system helps reduce missed ticket checks, speeds up boarding, and prevents 
 
 ## 🚀 Getting Started
 
+### .env variables
+
+- MONGODB_URI - your mongodb url
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)

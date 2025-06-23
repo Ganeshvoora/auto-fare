@@ -30,7 +30,7 @@ export async function POST(req) {
 
     const client = await clientPromise;
     const db = client.db();
-    const selfyCollection = db.collection('selfy');
+    const selfiesCollection = db.collection('selfies');
     const collection = db.collection('images');
 
     console.log('Fetching last 10 images from database...');
@@ -59,7 +59,7 @@ export async function POST(req) {
           const bestMatch = faceMatcher.findBestMatch(detection.descriptor);
           console.log(`Comparing... Label: ${bestMatch.label}, Distance: ${bestMatch.distance.toFixed(2)}`);
           if (bestMatch.label === 'person 1' && bestMatch.distance < (1 - SIMILARITY_THRESHOLD)) {
-            selfyCollection.insertOne({
+            selfiesCollection.insertOne({
               imageData: userImageBase64,
               matchedImageId: dbImage._id,
               timestamp: new Date(),

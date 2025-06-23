@@ -98,7 +98,7 @@ export default function UncommonImagesPage() {
       
       <main className="max-w-7xl mx-auto p-4 md:p-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-6">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+          <h2 className="text-2xl md:text-3xl font-bold text-white">
             Unrecognized Individuals
           </h2>
           <button 
@@ -127,12 +127,12 @@ export default function UncommonImagesPage() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search by filename or ID..."
-              className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500"
+              className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-black"
             />
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
-              className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500"
+              className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 text-black"
             >
               <option value="timestamp">Sort by Newest</option>
               <option value="filename">Sort by Filename</option>

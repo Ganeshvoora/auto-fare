@@ -15,8 +15,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "TSRTC e-Ticket",
+  title: "Auto Fare - Telangana RTC Bus Ticketing System",
   description: "Telangana RTC Bus Ticketing System",
+  authors: [
+    { name: "Voora Venkata Sai Ganesh", url: "https://linkedin.com/in/venkata-sai-ganesh-voora" }
+  ],
+  openGraph: {
+    title: "TSRTC e-Ticket",
+    description: "Telangana RTC Bus Ticketing System",
+    authors: ["Voora Venkata Sai Ganesh"]
+  }
 };
 
 export default function RootLayout({

@@ -27,7 +27,7 @@ export default function Home() {
     // Redirect to auth page after animation completes
     const timer = setTimeout(() => {
       router.push('/auth');
-    }, 2500);
+    }, 5500);
     
     return () => {
       clearTimeout(timer);

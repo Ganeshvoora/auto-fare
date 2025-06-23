@@ -62,7 +62,7 @@ This system helps reduce missed ticket checks, speeds up boarding, and prevents 
 4. **(Optional) Run CCTV Simulation:**
    ```bash
    cd cctv_symulation
-   python3 display.py
+   python3 main.py
    ```
 
 ---

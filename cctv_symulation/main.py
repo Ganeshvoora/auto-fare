@@ -5,7 +5,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 # MongoDB Atlas connection
-mongo_uri = "your MongoDB URI here"  # Replace with your MongoDB URI
+mongo_uri = "mongodb+srv://venkatasaiganeshvoora:hdGK9nunsP1HIoa5@leaening.iggqf65.mongodb.net/bus"  # Replace with your MongoDB URI
 client = MongoClient(mongo_uri)
 db = client["bus"]
 collection = db["images"]
